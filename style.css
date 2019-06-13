@@ -1,0 +1,7 @@
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background: lightgrey;
+    font-size: 24px;
+    padding: 25px;
+}
