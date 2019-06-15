@@ -22,3 +22,15 @@ li{
 .logo {
     float: left;
 }
+
+.page-footer{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lakewoodlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
