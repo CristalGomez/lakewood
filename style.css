@@ -18,3 +18,7 @@
 li{
     text-align: center;
 }
+
+.logo {
+    float: left;
+}
