@@ -1,7 +1,11 @@
+.container-bg {
+    background: url(images/desktop.jpg);
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
 .container{
-    max-width: 960px;
-    margin: 0 auto;
-    background: lightgrey;
-    font-size: 24px;
-    padding: 25px;
+    background-color: lightgrey;
+    min-height: 100%;
+    min-width: 100%;
 }
