@@ -1,64 +1,80 @@
+/* body styling */
 body{
     background-color: lightgrey
 }
-
 .container-bg {
-    background: url(images/desktop.jpg);
+    background: url(images/desktop.jpg) no-repeat;
     min-height: 100vh;
     min-width: 100vh;
+    padding: 20px;
 }
-
 .container{
     background-color: lightgrey;
     min-height: 100%;
     min-width: 100%;
 }
-
-
-.church{
-    font-weight: bold;
-    text-align: center;
-}
-li{
-    text-align: center;
-}
-
-.logo {
-    float: left;
-}
-
 .page-footer{
     padding: 10px;
     margin: 0 auto;
     text-align: center;
+    background-color: steelblue
 }
-
-.lakewoodlogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #email-footer{
     background-color: lightgrey;
     color: darkgrey;
 }
 
+
+/* font styling */
+li{
+    text-align: center;
+}
 p{
     text-align: center;
 }
 
-h2, h5{
+h2, h5, h1, h3{
+    text-align: center;
+}
+a{
+    color: white
+}
+.church{
+    font-weight: bold;
     text-align: center;
 }
 
+
+/* image styling */
+.logo {
+    float: left;
+}
+.lakewoodlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .lakewoodLogo {
     display: block;
     margin: 0 auto;
     height: 5%;
     width: 30%;
 }
+.book{
+    display: block;
+    margin: 0 auto;
+}
 
+
+/* media query */
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+}
+
+
+/* other */
 .preOrder {
     background-color: darkgrey;
     padding: 10px;
@@ -68,4 +84,15 @@ h2, h5{
     display: block;
     margin: 0 auto;
     background-color: dodgerblue;
+}
+
+.cart-btn{
+    background-color: white;
+    color: black;
+
+}
+.read-btn{
+    color: white;
+    background-color: transparent;
+
 }

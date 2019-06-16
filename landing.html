@@ -20,26 +20,29 @@
     <!-- start of "navbar" -->
     <div class="container-bg">
         <div class="row">
-            <div class="col s6 l6 logo">
-                <img src="images/lakewoodlogo.png" alt="joel-logo">
+            <div class="col s12 l6 logo">
+                <img style="width: 30%;height:35%" src="images/lakewoodlogo.png" alt="joel-logo">
             </div>
-            <div class="col s6 l6 link">
+            <div class="col s12 l6 link">
                 <a href=" https://www.joelosteen.com" target="blank">Go to JoelOsteen.com</a>
             </div>
         </div>
         <!-- end of navbar -->
         <!-- start of main content -->
         <div class="row">
-            <div class="col s6 l6">
+            <div class="col s12 l6">
                 <img src="images/book.png" alt="Joel-Book">
             </div>
-            <div class="col s6 l6">
-                <p>From the New York Times Bestselling Author, Joel Osteen</p>
+            <div class="col s12 l6">
+                <h5>From the New York Times Bestselling Author, Joel Osteen</h5>
                 <h1>Rise Higher!</h1>
                 <p>You may think you've reached your limits, but God has destined you to rise higher. In his new book,
-                    Joel will help you to break through your boundaries, push aside your past and experience next-level
-                    victory, favor and abundance.</p>
-                <button>Add to Cart</button> <button>Read an Excerpt</button>
+                Joel will help you to break through your boundaries, push aside your past and experience next-level
+                victory, favor and abundance.</p>
+                <button class="btn waves-effect waves-light cart-btn" type="submit" name="action">Add to Cart</button>
+                <button class="btn waves-effect waves-light read-btn" type="submit" name="action">Read an Excerpt
+                <i class="fas fa-chevron-right"></i></button>
+                <br>
                 <br>
                 <a href="https://www.joelosteen.com/pages/BookSignings.aspx" target="blank">Discover when Joel will be
                     in your city</a>
@@ -49,13 +52,15 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col s6 l6">
+            <div class="col s12 l6">
                 <h4>Watch a special message from Joel</h4>
                 <p>In his new book, Next Level Thinking, Joel Osteen writes that we weren't created to go through life
                     weighed down by the past. God has destined us to rise higher, to go to the next level.</p>
             </div>
-            <div class="col s6 l6">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MLbPc9Vw_AQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col s12 l6 iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MLbPc9Vw_AQ" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -63,12 +68,12 @@
     <div class="container-bg">
         <div class="row">
             <div class="col s12 l12">
-                <h1>Order Next Level Thinking Today!</h1>
+                <h3>Order Next Level Thinking Today!</h3>
                 <br>
-                <img src="images/book.png" alt="Joel-Book">
+                <img class="book" src="images/book.png" alt="Joel-Book">
                 <br>
-                <h4>Next Level Thinking</h4>
-                <h4>Price: $15</h4>
+                <h5>Next Level Thinking</h5>
+                <h5>Price: $15</h5>
                 <br>
                 <button>Add to Cart</button>
             </div>
@@ -86,7 +91,7 @@
         </div>
 
         <div class="row">
-            <div class="col s4 lg4">
+            <div class="col s12 m4 lg4">
                 <ul>
                     <p class="church">Great Church</p>
                     <li>Pastors Steven & Carmen Lynn</li>
@@ -135,7 +140,7 @@
                     <li>Oswego, IL</li>
                 </ul>
             </div>
-            <div class="col s4 lg4">
+            <div class="col s12 m4 lg4">
                 <ul>
                     <p class="church">Willowdale</p>
                     <li>Pastor Paul & Wanna Koo</li>
@@ -185,7 +190,7 @@
                 </ul>
 
             </div>
-            <div class="col s4 lg4">
+            <div class="col s12 m4 lg4">
                 <ul>
                     <p class="church">Northview Christian Church</p>
                     <li>Pastor Hart Ramsey</li>
@@ -239,22 +244,18 @@
     </div>
 
     <footer class="page-footer">
-        <div class="container-footer">
+        <div class="container-footer col s12 l12">
             <div class="row">
                 <div class="l12 s12">
                     <p>
-                        <a href="" target="blank">Privacy Policy</a> | 
-                        <a href="" target="blnak">Terms of Use</a> | 
+                        <a href="" target="blank">Privacy Policy</a> |
+                        <a href="" target="blnak">Terms of Use</a> |
                         <a href="" target="blank">Return and Exchange Policy</a> | Copyright 2018 Joel Osteen Ministries
-            
+
                     </p>
                     <p>Joel Osteen Ministries is a qualified IRS Section 501C3 Organization</p>
+                    <img style="width: 10%;height:10%" class="lakewoodlogo" src="images/lakewoodlogo.png" alt="logo">
                 </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container-footer">
-                <img class="lakewoodlogo" src="images/lakewoodlogo.png" alt="logo">
             </div>
         </div>
     </footer>
@@ -262,7 +263,3 @@
 </body>
 
 </html>
-
-
-
-<!-- data-image-src="images/desktop.jpg" -->
