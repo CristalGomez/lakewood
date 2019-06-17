@@ -1,4 +1,4 @@
-/* body styling */
+/* ----------------------body styling---------------------- */
 body{
     background-color: lightgrey
 }
@@ -19,8 +19,9 @@ body{
     margin: 0 auto;
     text-align: center;
     background-color: steelblue;
-    width: 100vh;
+    width: 100%;
 }
+
 #email-footer{
     background-color: lightgrey;
     color: darkgrey;
@@ -28,8 +29,11 @@ body{
 .imgBook {
     float: left;
 }
+.emailBook{
+    float: left;
+}
 
-/* font styling */
+/* ----------------------font styling---------------------- */
 li{
     text-align: center;
 }
@@ -54,7 +58,29 @@ p.church{
     line-height: 0.1
 }
 
-/* image styling */
+#rise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 6vw;
+    color: indianred;
+    font-weight: bold;
+
+}
+
+#higher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 6vw;
+    color:steelblue;
+    font-weight: bold;
+    line-height: .7;
+}
+
+/* ----------------------image styling---------------------- */
 .logo {
     float: left;
 }
@@ -77,18 +103,20 @@ p.church{
 }
 
 
-/* media queries */
+/* ----------------------media queries---------------------- */
 
 @media only screen and (max-width: 980px) {
-    .container, .container-bg, .page-footer{
+    .container, .container-bg{
         width: 100%
     }
+
 }
   
 @media only screen and (max-width: 768px) {
-    .container, .container-bg, .page-footer{
+    .container, .container-bg{
         width: 100%
     }
+
 }
 @media only screen and (max-width: 648px) {
     .container-bg{
@@ -118,7 +146,7 @@ p.church{
     }
 }
 
-/* btn styling */
+/* ----------------------btn styling---------------------- */
 .preOrder {
     background-color: darkgrey;
     padding: 10px;
@@ -141,4 +169,3 @@ p.church{
     color: white;
     background-color: transparent;
 }
-
